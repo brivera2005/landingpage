@@ -1,16 +1,24 @@
+.top    {
+    background-color: #1F2937;
+    color: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
 
-
-
-
-
-
-
-
-
-
+.mid    {
+    background-color: white;
+}
 
 .end {
     background-color: #1F2937;
-    border: 1px solid #ccc;
     color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
