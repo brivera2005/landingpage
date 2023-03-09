@@ -1,17 +1,55 @@
 .top    {
     background-color: #1F2937;
     color: white;
-    position: absolute;
+    position: fixed;
     top: 0px;
     left: 0px;
     right: 0px;
 }
 
-.mid    {
-    background-color: white;
+.boxcontainer  {
+    display: flex;
+    justify-content: center;
 }
 
-.end {
+.boxes  {
+    border: 2px solid #3882F6;
+    min-width: 80px;
+    min-height: 80px;
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 10px;
+    margin-right: 5%; 
+}
+
+.textcontainer  {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.text   {
+    font-size: xx-small;
+    min-width: 80px;
+    min-height: 80px;
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 10px;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    border: 2px solid #3882F6;
+}
+
+
+
+.mid    {
+    background-color: white;
+    padding-top: 15%;
+    text-align: center;
+    
+}
+
+.end    {
     background-color: #1F2937;
     color: white;
     position: absolute;
