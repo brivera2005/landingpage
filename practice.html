@@ -8,7 +8,39 @@
 </head>
 <body>
     <script>
-        
+        function add7(input)    {
+            let result1 = input + 7;
+            return result1;
+        }
+        let input = 0;
+        let result1 = add7(input)
+        console.log(result1);
+
+        function multiply(input1, input2)    {
+            let result2 = input1 * input2;
+            return result2;
+        }
+        let input1 = 5;
+        let input2 = 5;
+        let result2 = multiply(input1, input2);
+        console.log(result2);
+
+       function capitalize(input3)  {
+            let result3 = input3.charAt(0).toUpperCase() + input3.slice(1).toLowerCase();
+            
+                    return result3;
+       }
+            let input3 = "testiNg";
+            let result3 = capitalize(input3);
+            console.log(result3);
+
+        function lastLetter(input4) {
+            let result4 = input4.slice(-1);
+            return result4;
+        }
+            let input4 = "what is the last character?";
+            let result4 = lastLetter(input4);
+            console.log(result4);
     </script>
 </body>
 </html>
